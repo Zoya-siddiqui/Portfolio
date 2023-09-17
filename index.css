@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgba(0,0,33);
+    color: white;
+}
+nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px;
+    background-color: rgba(0,0,44);
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.btn{
+    
+    text-decoration: none;
+     background-color: white;
+     color: black;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+li{
+    margin: 0 25px;
+    text-transform: capitalize;
+    padding: 12px;
+    font-size:17px;
+}
+.left {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.right {
+    display: flex;
+    width: fit-content;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.first-sec div{
+    width: 40%;
+}
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.left-sec{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 22vh;
+    text-transform: capitalize;
+    line-height: 50px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+.left-sec div{
+    width: auto;
+}
+.right-sec{
+    background-image: url(PngItem_1127587.png);
+    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    animation: ani 2s ease-in-out infinite;
+}
+@keyframes ani{
+   0%{
+    top:0;
+    left:0;
+   }
+   25%{
+    top:20px;
+    left:20px;
+   }
+   100%{
+    top: 5px;
+    left:30 ;
+   }
+    
+}
+.sec-sec{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    
+}
+.sec-sec h1{
+    font-size: 1.9rem;
+    margin-top: 8px;
+}
+.sec-sec span{
+    color:rgb(143, 139, 139); 
+    text-transform: capitalize;
+}
+main hr{
+    border: 0;
+    background-color: rgb(96, 53, 112);
+    height: 1.5PX;
+    margin: 45px 84px;
+}
